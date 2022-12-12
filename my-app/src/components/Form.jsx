@@ -10,7 +10,7 @@ const Form = () => {
   //component에서 store를 조회할때는 useSelect를 사용한다.
   //초기값에 접근이 가능하다.
   const list = useSelector((state) => state.todos.todos);
-  //console.log(list);
+  console.log(list);
 
   //input
   const [input, setInput] = useState({ title: "", text: "" });
