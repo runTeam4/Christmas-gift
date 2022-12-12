@@ -10,7 +10,8 @@ const App = () => {
       <Router />
     </AppWrap>
   );
-};
+
+}
 
 const AppWrap = styled.div`
   display: block;
