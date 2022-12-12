@@ -1,16 +1,11 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useState } from "react";
 import styled from "styled-components";
 import { addList } from "../redux/modules/todos";
 
 const Form = () => {
   const dispatch = useDispatch();
-  //useSelector를 사용하여 todos.todos를 조회
-  //component에서 store를 조회할때는 useSelect를 사용한다.
-  //초기값에 접근이 가능하다.
-  const list = useSelector((state) => state.todos.todos);
-  //console.log(list);
 
   //input
   const [input, setInput] = useState({ title: "", text: "" });

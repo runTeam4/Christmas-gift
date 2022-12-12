@@ -1,0 +1,15 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "산타",
+      "body": "선물주세용~!"
+    }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "body": "댓글글글"
+    }
+  ]
+}
